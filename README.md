@@ -1,8 +1,7 @@
 # X-platform terminal / graphical ui apps
 
 ### Apt
-* `$ sudo apt install cmatrix newsboat cmus`
-* `$ sudo apt install nautilus gedit mpv`
+* `$ sudo apt install cmatrix newsboat`
 
 ### Fresh Install Info
     sudo apt install git stow
