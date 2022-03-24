@@ -1,7 +1,7 @@
 # X-platform terminal / graphical ui apps
 
 ### Apt
-* `$ sudo apt install cmatrix newsboat`
+* `$ sudo apt install cmatrix newsboat cowsay fortune`
 
 ### Fresh Install Info
     sudo apt install git stow
