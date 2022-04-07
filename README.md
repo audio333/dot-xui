@@ -2,7 +2,7 @@
 
 ### APT
 * `$ sudo apt install tldr mycli newsboat`
-* `$ sudo apt install cmatrix cowsay fortune`
+* `$ sudo apt install cmatrix cowsay fortune figlet sl`
 
 ### PPA
 * alacritty
