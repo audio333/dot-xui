@@ -24,19 +24,24 @@
   * `$ git clone https://github.com/pystardust/ytfzf`
   * `$ cd ytfzf`
   * `$ sudo make install doc`
+* [ani-cli](https://github.com/pystardust/ani-cli#linux--mac-os)
+  * `$ sudo apt install grep sed awk curl openssl mpv aria2 ffmpeg` 
+  * `$ sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli` 
+  * `$ sudo chmod +x /usr/local/bin/ani-cli` 
+* [manga-cli](https://github.com/7USTIN/manga-cli#linux)
+  * `$ sudo apt install img2pdf zathura-pdf-poppler zathura curl git` 
+  * `$ git clone https://github.com/7USTIN/manga-cli` 
+  * `$ cd manga-cli` 
+  * `$ sudo cp manga-cli /usr/local/bin/manga-cli` 
+* [mov-cli](https://github.com/mov-cli/mov-cli#shell)
+  * `$ git clone https://github.com/mov-cli/mov-cli` 
+  * `$ cd mov-cli` 
+  * `$ ./mov-cli` 
 * [torrentflix](https://github.com/ItzBlitz98/torrentflix#install-manual)
   * `$ npm install -g peerflix`
   * `$ git clone https://github.com/ItzBlitz98/torrentflix`
   * `$ cd torrentflix`
   * `$ npm install`
-* [ani-cli](https://github.com/pystardust/ani-cli#linux--mac-os)
-  * `$ sudo apt install grep sed awk curl openssl mpv aria2 ffmpeg` 
-  * `$ sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli` 
-  * `$ sudo chmod +x /usr/local/bin/ani-cli` 
-* [mov-cli](https://github.com/mov-cli/mov-cli#shell)
-  * `$ git clone https://github.com/mov-cli/mov-cli` 
-  * `$ cd mov-cli` 
-  * `$ ./mov-cli` 
 
 ### Fresh Install Info
     sudo apt install git stow
