@@ -1,7 +1,7 @@
 # X-platform terminal / graphical ui apps
 
 ### APT
-* `$ sudo apt install tldr mycli newsboat`
+* `$ sudo apt install mpv tldr mycli newsboat`
 * `$ sudo apt install cmatrix cowsay fortune figlet sl`
 
 ### PPA
