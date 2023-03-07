@@ -28,11 +28,9 @@
   * `$ sudo apt install grep sed awk curl openssl mpv aria2 ffmpeg` 
   * `$ sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli` 
   * `$ sudo chmod +x /usr/local/bin/ani-cli` 
-* [manga-cli](https://github.com/7USTIN/manga-cli#linux)
-  * `$ sudo apt install img2pdf zathura-pdf-poppler zathura curl git` 
-  * `$ git clone https://github.com/7USTIN/manga-cli` 
-  * `$ cd manga-cli` 
-  * `$ sudo cp manga-cli /usr/local/bin/manga-cli` 
+* [lobster](https://github.com/justchokingaround/lobster#linux)
+  * `$ sudo curl -sL github.com/justchokingaround/lobster/raw/main/lobster.sh -o /usr/local/bin/lobster` 
+  * `$ sudo chmod +x /usr/local/bin/lobster` 
 * [mov-cli](https://github.com/mov-cli/mov-cli#shell)
   * `$ git clone https://github.com/mov-cli/mov-cli` 
   * `$ cd mov-cli` 
