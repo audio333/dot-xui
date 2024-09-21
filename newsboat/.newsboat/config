@@ -27,13 +27,26 @@ bind-key N prev-unread
 
 
 #browser linkhandler
-macro , open-in-browser
+#macro , open-in-browser
 #macro t set browser "youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
 #macro a set browser "youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser linkhandler
-macro v set browser "tsp setsid nohup mpv --ytdl-format=bestvideo+bestaudio/best"; open-in-browser ; set browser linkhandler
+#macro v set browser "tsp setsid nohup mpv --ytdl-format=bestvideo+bestaudio/best"; open-in-browser ; set browser linkhandler
 #macro w set browser "w3m"; open-in-browser ; set browser linkhandler
 #macro p set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
 #macro c set browser "xsel -b <<<" ; open-in-browser ; set browser linkhandler
+
+# macro setup
+browser linkhandler
+macro , open-in-browser
+
+# launch video player
+macro v set browser "setsid -f mpv" ; open-in-browser ; set browser linkhandler
+
+# download vidoe
+ macro d set browser "yt-dlp"; open-in-browser ; set browser linkhandler
+
+# download audio only
+macro a set browser "yt-dlp --embed-medatada -xic -f bestaudio/best" ; open-in-browser ; set browser linkhandler
 
 
 # Colors
