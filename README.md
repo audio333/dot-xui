@@ -24,6 +24,8 @@
   * `$ git clone https://github.com/pystardust/ytfzf`
   * `$ cd ytfzf`
   * `$ sudo make install doc`
+* [ueberzugpp](https://github.com/jstkdng/ueberzugpp?tab=readme-ov-file#debianubuntufedora)
+ 
 * [ani-cli](https://github.com/pystardust/ani-cli#linux--mac-os)
   * `$ sudo apt install grep sed awk curl openssl mpv aria2 ffmpeg` 
   * `$ sudo curl -sL github.com/pystardust/ani-cli/raw/master/ani-cli -o /usr/local/bin/ani-cli` 

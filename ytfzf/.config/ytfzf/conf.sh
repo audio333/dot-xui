@@ -5,3 +5,7 @@ YTFZF_ENABLE_FZF_DEFAULT_OPTS=1 # fzf colors are going to be the one from your f
 FZF_PLAYER=”mpv” # sets the video player used by ytfzf (mpv by default), e.g. FZF_PLAYER=”devour mpv”; you can also specify the YTFZF_PLAYER_FORMAT, e.g. YTFZF_PLAYER_FORMAT=”devour mpv –ytdl-format=”
 
 video_pref="bestvideo[height<=?480]+bestaudio/best"
+ytdl_pref="bestvideo[height<=?480]+bestaudio/best"
+
+show_thumbnails=1
+load_thumbnail_viewer=ueberzug
