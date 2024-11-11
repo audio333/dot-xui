@@ -23,25 +23,27 @@ bind-key n next-unread
 bind-key N prev-unread
 bind-key t toggle-show-read-feeds
 #bind-key D pb-download
-#bind-key U show-urls
+bind-key U show-urls
 #bind-key x pb-delete
 
-#macro v set browser "tsp setsid nohup mpv --ytdl-format=bestvideo+bestaudio/best"; open-in-browser ; set browser linkhandler
-
 # macro setup
-browser "$BROWSER %u"
+browser "lh -l %u"
 
 # launch browser
 macro , open-in-browser
 # launch video player
-macro v set browser "TS_SOCKET=/tmp/md tsp mpv --quiet --geometry=-15-60 --autofit=854x480 --title='newsboat'" ; open-in-browser ; set browser "$BROWSER %u"
+macro v set browser "qv -F 480 -S md -u" ; open-in-browser ; set browser "lh -l %u"
+macro V set browser "qv -F 720 -S hd -u" ; open-in-browser ; set browser "lh -l %u"
 # download video
-macro d set browser "TS_SOCKET=/tmp/dl tsp yt-dlp --format 135+139"; open-in-browser ; set browser "$BROWSER %u"
-# download audio only
-macro a set browser "TS_SOCKET=/tmp/dl tsp yt-dlp --embed-metadata --format 139" ; open-in-browser ; set browser "$BROWSER %u"
+macro d set browser "qv -F 480 -D -u"; open-in-browser ; set browser "lh -l %u"
+macro D set browser "qv -F 720 -D -u"; open-in-browser ; set browser "lh -l %u"
+# play / download audio only
+macro a set browser "qv -A -u" ; open-in-browser ; set browser "lh -l %u"
+macro A set browser "qv -F m4a -D -u"; open-in-browser ; set browser "lh -l %u"
 # copy link to clipboard
-macro c set browser "echo %u | xclip -r -sel clip" ; open-in-browser ; set browser "$BROWSER %u"
-
+macro c set browser "echo %u | xclip -r -sel clip" ; open-in-browser ; set browser "lh -l %u"
+# link handler menu
+macro m set browser "lh -d" ; open-in-browser ; set browser "lh -l %u"
 
 # Colors
 color background default default
